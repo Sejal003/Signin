@@ -1,0 +1,88 @@
+html{
+    scroll-padding-top: 5.5rem;
+    overflow-x: hidden;
+  }
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    padding: 1rem;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+  
+  .Navbar-brand {
+    margin-left: 2.5rem;
+  }
+  
+  .Navbar-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .Navbar-item {
+    margin-right: 3rem;
+  }
+  
+  .Navbar-item a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+  }
+  .Navbar-item .Btn{
+    background-color: #0038A8;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .Navbar-toggle {
+    display: none;
+  }
+  
+  .Bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Navbar-menu{
+        position: absolute;
+        top: 110%;
+        right: -210%;
+        width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+   
+    }
+    .Navbar-menu.active{
+        right: 2rem;
+        transition: .4s linear;
+    }
+    .Navbar-menu .Navbar-item{
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+    .Navbar-menu .Navbar-item a {
+        margin: 2rem 2.5rem;
+        font-size: 1.5rem;
+    }
+   
+    .Navbar-toggle{
+        display: inline-block;
+        margin-right: 3rem;
+    }
+  }

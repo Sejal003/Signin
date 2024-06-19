@@ -1,0 +1,114 @@
+.Hero-Content {
+  color: white;
+  height: 40rem;
+  display: flex;
+  justify-content:space-between;    
+}
+  
+.Hero-Content img {
+  height: 505px;
+  width: 505px; 
+   position:absolute;
+   right: 8%;
+   top: 22%;
+}
+
+.Hero-Content #Intro {
+  margin-left: 6rem;
+  padding-top: 8rem;
+  width: 620px;
+}
+.Hero-Content #Intro .H1{
+  font-size:64px;
+  font-weight: 600;
+  margin-top: 4rem;
+  color: #1A1A19;
+}
+.Hero-Content #Intro span{
+    color: #0038A8;
+}
+.Hero-Content #Intro p{
+    color: #333331;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 1rem 0rem;
+}
+.Buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 4rem 0rem;
+}
+.Hero-Content #Intro button a {
+  text-decoration: none;
+  background-color: #0038A8;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+}
+
+.Hero-Content button {
+    width: 190px;
+    height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0px 20px 35px 0px #4475F236;
+  border: 0px;
+}
+.Know-Button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+.Play{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 1rem;
+  box-shadow: 0px 20px 35px 0px #4475F236;
+  border: 1px solid #0038A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Polygon{
+  height: 14px;
+  width: 14px;
+  background-color: #0038A8;
+ rotate: 90;
+}
+.Knowmore{
+  font-size: 20px;
+  font-weight: 700;
+  color: #0038A8;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .Hero-Content {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .Hero-Content #Intro .H1{
+    font-size:2.5rem;
+    margin-top: 6rem;
+  }
+  .Hero-Content img {
+    position: static;
+    height: 30rem;
+    margin-top: -3rem;
+  }
+
+  .Hero-Content #Intro {
+    margin: 2rem 0;
+    text-align: center;
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+  .Hero-Content button {
+    margin-top: 2rem;
+  }
+}

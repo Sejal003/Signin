@@ -1,0 +1,46 @@
+.Sol-Section {
+    margin: 5rem 6rem;
+}
+
+.Echopark {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0038A8;
+}
+
+.Main-Heading {
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.Card-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sol-Card{
+    background-color: #0038A81A;
+    height: 20rem;
+    width: 17.5rem;
+    border-radius: 0.6rem;
+    padding: 2rem 2.5rem;    
+}
+
+.Card-Heading{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #0038A8; 
+    padding: 0.5rem 0rem;  
+}
+.Card-Description{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.68px;
+    text-align: left; 
+}

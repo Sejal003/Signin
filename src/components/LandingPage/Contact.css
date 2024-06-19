@@ -1,0 +1,41 @@
+.Contact-Box {
+    padding: 2rem 12rem;
+    border: 2px solid #E6EBF3;
+}
+
+.Contact-Info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact-Para {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    text-align: left;
+}
+
+.Contact-heading {
+    font-family: PP Pier Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #0038A8;
+}
+
+.Email {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Email .Mail-Id {
+    padding-left: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.24px;
+    text-align: left;
+}
