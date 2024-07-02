@@ -1,0 +1,65 @@
+.Testimonial-Section {
+    background-color: #0038A8;
+    z-index: 1;
+    height: 560px;
+    display: flex;
+    align-items: center;
+}
+
+.Testimonial-Cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: nowrap;
+}
+
+.Testimonial {
+    background-color: #FFFFFF;
+    opacity: 85%;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 0.6rem;
+    padding: 3rem;
+    position: relative;
+}
+.Testimonial:hover{
+    opacity: 100%;
+    margin-top: -3rem;
+    box-shadow: 0px 8px 4px 0px #00000040;
+}
+
+.Testimonial-Description {
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.24px;
+    text-align: left;
+    color: #000000;
+    padding-top: 1rem;
+}
+
+.Details {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.Name {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    letter-spacing: -0.12600000202655792px;
+    text-align: left;
+    color: #0038A8;
+}
+
+.City {
+    font-family: Outfit;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.12px;
+    letter-spacing: -0.12600000202655792px;
+    text-align: left;
+    color: #575757;
+}

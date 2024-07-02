@@ -1,0 +1,65 @@
+.Launch-Section {
+    margin: 6rem 6rem;
+}
+
+.Launch-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Launch-Info h3 {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    text-align: left;
+    color: #0038A8;
+}
+
+.Launch-Info h2 {
+    font-family: Bergen Text;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.Launch-Info p {
+    font-family: Outfit;
+    font-size: 24px;
+    line-height: 30.24px;
+    text-align: left;
+    color: #575757;
+    padding: 0.5rem 0;
+    width: 350px;
+}
+.Launch-Info .Launch{
+    padding-top: 1.5rem;
+    font-size: 48px;
+}
+
+.Img-Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img-Box img {
+    border: 5px solid #0038A84D;
+    width: 215px;
+    border-radius: 15px;
+}
+
+.Img-Box .img-1 {
+    transform: rotate(-7.77deg);
+    z-index: -1;
+}
+
+.Img-Box .img-2 {
+    margin-bottom: 1rem;
+}
+
+.Img-Box .img-3 {
+    transform: rotate(7.77deg);
+}

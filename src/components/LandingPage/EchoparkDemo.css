@@ -1,0 +1,58 @@
+.Demo-Container {
+    padding: 0rem 5rem;
+    background-color: #0038A8;
+    color: #FFFFFF;
+    z-index: -100;
+    margin-bottom: -0.3rem;
+}
+
+.Demo-Box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.Demo-Heading {
+    font-family: PP Pier Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.Demo-Heading span {
+    font-family: Bergen Text;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.Demo-Desc {
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    width: 610px;
+    padding-top: 0.5rem;
+}
+.Demo-Button button{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.16px;
+text-align: center;
+border: 1px solid #FFFFFF;
+padding: 0 1.5rem;
+}
+.img-box{
+    /* margin-bottom: -0.5rem; */
+}
+.img-box img{
+    padding-bottom: -1rem;
+   width: 100%;
+}

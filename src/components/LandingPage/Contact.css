@@ -1,6 +1,8 @@
 .Contact-Box {
     padding: 2rem 12rem;
     border: 2px solid #E6EBF3;
+    background: #ffffff;
+    z-index: 100;
 }
 
 .Contact-Info {
