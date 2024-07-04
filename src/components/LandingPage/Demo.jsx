@@ -1,28 +1,30 @@
 import React, { useRef, useState } from 'react';
-import './Testimonial.css'
-
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+
+// import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 
 const Testimonial = () => {
   return (
     <div className='Testimonial-Section'>
-       <Swiper
+        <div className='Testimonial-Cards-Wrapper'>
+          <div className='Testimonial-Cards'>
+          <Swiper
         slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
-        scrollbar={{ draggable: true }}
-        modules={[FreeMode]}
-        className="swiper mySwiper"
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
       >
-        {/* <div className='Testimonial-Cards-Wrapper'> */}
-          <div className='swiper-wrapper Testimonial-Cards'>
           <SwiperSlide>
             <div className='Testimonial'>
               <img src="/Assets/Vector (1).svg" alt="cardimage" className='Card-Img' />
@@ -63,10 +65,10 @@ const Testimonial = () => {
               </div>
             </div>
             </SwiperSlide>
-            
+            </Swiper>
           </div>
-        {/* </div> */}
-        </Swiper>
+        </div>
+      
     </div>
   )
 }

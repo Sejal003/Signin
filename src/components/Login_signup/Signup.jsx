@@ -3,7 +3,7 @@ import './Login_signup.css'
 import { Link } from 'react-router-dom';
 
 
-const Login_signup = () => {
+const Signup = () => {
 
     const [formData, setFormData] = useState({
         email: '',
@@ -39,7 +39,11 @@ const Login_signup = () => {
                             <span >
                                 <img src="/Assets/Logo.svg" alt="" />
                             </span>
-                            <p>Welcome Back, Please login to your account</p>
+                            <p>Welcome, Please create your account</p>
+                            <h3 className='Entry'>Name</h3>
+                            <div className="input_box">
+                                <input type="text" name="name" placeholder='Name' />
+                            </div>
                             <h3 className='Entry'>Email</h3>
                             <div className="input_box">
                                 <input type="text"
@@ -54,14 +58,9 @@ const Login_signup = () => {
                                 <input type="password" name='password' placeholder='Password' onChange={handlechange} />
                                 {errors.password && <span className='errors'>{errors.password}</span>}
                             </div>
-                            <div className="remember-forgot">
-                                <label htmlFor=""> <input type="checkbox" /> Remember me</label>
-                                <a href="#">Forgot Password?</a>
-                            </div>
                             <div className="submit-buttons">
-                                <button type='submit'>Join Waitlist</button>
-                                <Link to="/signup">
-                                    <button type='submit' className='signup'>Sign Up</button>
+                                <Link to="/" className='button'>
+                                    <button type='submit'>Sign Up</button>
                                 </Link>
                             </div>
 
@@ -73,4 +72,4 @@ const Login_signup = () => {
     )
 }
 
-export default Login_signup
+export default Signup
