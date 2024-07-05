@@ -10,7 +10,7 @@ import EchoparkDemo from './components/LandingPage/EchoparkDemo'
 import AppLaunch from './components/LandingPage/AppLaunch'
 import Testimonial from './components/LandingPage/Testimonial'
 import Signup from './components/Login_signup/Signup'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 
@@ -18,16 +18,7 @@ function App() {
 
   return (
     <>
-            <Router>
-                <Routes>
-                    <Route path="/" element={<Login_signup />} />
-                    <Route path="/signup" element={<Signup />} />
-               </Routes>
-            </Router>
-
-
-
-    {/* <Signup></Signup> */}
+    <Signup></Signup>
      {/* <Login_signup/> */}
      {/* <Navbar></Navbar>
      <HeroSection></HeroSection>
